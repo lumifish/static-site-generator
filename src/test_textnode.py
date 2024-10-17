@@ -23,6 +23,7 @@ class TestTextNode(unittest.TestCase):
     def test_url_none(self):
         node = TextNode("This is a text node", "italic")
         self.assertEqual(node.url, None)
+    
 
 if __name__ == "__main__":
     unittest.main()
